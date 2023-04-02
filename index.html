@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./public/css/getcity.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Know Your Weather</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="header-container">
+            <div class="head-container">
+                <div class="header-image-logo">
+                    <img src="https://www.freeiconspng.com/uploads/weather-icon-png-25.png" alt="logo">
+                </div>
+                <div class="header-logo-text">
+                    <h1 class="h1-primary"><a href="">Know Your Weather</a></h1>
+                </div>
+            </div>
+            <div class="navbar-container-header">
+                <div class="nav">
+                    <ul class="navbar">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Blog</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="home-container">
+        <div class="inside-home-container">
+            <div class="home-container-bg">
+                <video autoplay muted loop play-inline class="my-video">
+                    <source src="./public/imgs/video/Background video.mp4">
+                </video>
+            </div>
+            <div class="home-container-content">
+
+                <form action="/city" method="post" class="find-your-city-form">
+                    <input type="text" name="myCity" id="my-city" placeholder="find your city" class="input-box"
+                        required />
+                    <input type="submit" name="submit" id="submit" class="input-box" Value="search" />
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="footer-container">
+            <h1 class="Footer-heading">
+                Know Your Weather
+            </h1>
+            <p class="footer-para">
+                Know Your Weather is a website where you can check the current weather and forecast of any city in the
+                world. It provides up-to-date information on temperature, humidity, wind speed, and precipitation,
+                helping users plan their activities accordingly.
+            </p>
+            <div class="mysocials">
+                <div class="socials-container">
+                    <div class="facebook">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <div class="Insta">
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <div class="twitter">
+                        <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <div class="youtube">
+                        <a href=""><i class="fa-brands fa-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </footer>
+</body>
+
+</html>
